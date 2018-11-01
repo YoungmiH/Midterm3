@@ -103,7 +103,7 @@ function draw(){
 
   if(page == 11){
     image(TDL2, 0, 0);
-    if (mouseIsPressed && mouseX > 0 && mouseX < 375 && mouseY > 606 && mouseY < 606+61){
+    if (mouseIsPressed && mouseX > 24 && mouseX < 24+327 && mouseY > 176 && mouseY < 176+126){
       page = 12;
     }
   }
